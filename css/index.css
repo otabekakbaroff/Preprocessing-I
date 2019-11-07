@@ -1,1 +1,136 @@
-/* Compile your LESS file! */
+.background-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-cover {
+  background-color: #404040;
+  border-radius: 50%;
+  color: white;
+}
+nav {
+  margin: 0.01%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #404040;
+}
+nav a {
+  text-align: center;
+  color: white;
+  padding: 2%;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  background-color: #a7a7a7;
+}
+.intro {
+  color: white;
+  background-image: url("./top_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+}
+.intro header {
+  height: 30vh;
+  width: 50%;
+  background-color: #404040;
+  border-radius: 50%;
+}
+.middle {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.middle .mid-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  background-image: url("./sec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+.middle .mid-right section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #404040;
+  border-radius: 50%;
+  color: white;
+  width: 50%;
+}
+.middle .mid-left {
+  background-image: url("./mid_one (3).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  align-items: center;
+}
+.middle .mid-left section {
+  padding: 5%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #404040;
+  border-radius: 50%;
+  color: white;
+}
+.middle .mid-left section p {
+  padding: 5%;
+}
+.w-history {
+  height: 25vh;
+  background-image: url("./w-history.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #404040;
+}
+.w-history h2 {
+  margin-top: 0;
+}
+.w-history table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 3px solid black;
+  text-align: left;
+  padding: 8px;
+  font-weight: bolder;
+}
+footer section {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
