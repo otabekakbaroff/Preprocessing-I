@@ -134,3 +134,36 @@ footer section {
   justify-content: center;
   text-align: center;
 }
+@media (max-width: 500px) {
+  nav a {
+    padding: 5%;
+    font-size: 120%;
+  }
+  .intro header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  .intro header h1,
+  .intro header h2,
+  .intro header p,
+  .intro header button {
+    margin: 3%;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle .mid-left {
+    height: 50vh;
+    width: 100%;
+  }
+  .middle .mid-right {
+    width: 100%;
+    height: 50vh;
+  }
+  footer section h3 {
+    font-size: 112%;
+  }
+}
