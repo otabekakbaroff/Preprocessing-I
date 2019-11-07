@@ -1,1 +1,76 @@
-/* Compile your LESS file! */
+* {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid green;
+}
+nav {
+  margin: 0.01%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #404040;
+}
+nav a {
+  text-align: center;
+  color: white;
+  padding: 2%;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  background-color: #a7a7a7;
+}
+.intro {
+  color: white;
+  background-image: url("./top_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+}
+.intro header {
+  height: 30vh;
+  width: 50%;
+  background-color: #404040;
+  border-radius: 50%;
+}
+.middle {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.middle .mid-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  background-color: purple;
+}
+.middle .mid-right section {
+  background-color: white;
+}
+.middle .mid-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  background-color: yellow;
+}
+.middle .mid-left section {
+  background-color: white;
+}
+footer p {
+  text-align: center;
+}
