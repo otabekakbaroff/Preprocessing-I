@@ -151,6 +151,19 @@ footer section {
   .intro header button {
     margin: 3%;
   }
+  .intro header h1 {
+    font-size: 150%;
+  }
+  .intro header h2 {
+    font-size: 100%;
+  }
+  .intro header P {
+    font-size: 80%;
+  }
+  .intro header button {
+    font-size: 80%;
+    border-radius: 10%;
+  }
   .middle {
     display: flex;
     flex-direction: column;
